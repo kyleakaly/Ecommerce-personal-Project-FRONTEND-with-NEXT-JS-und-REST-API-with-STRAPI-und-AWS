@@ -28,13 +28,6 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-For the project to work, you need to install nexst and connect it to the backend which is in this same github profile.
 
 and you need to connect amazon web services S3 or upload your own content directly.
 you also have to have mysql and database and connect it with strapi link here: https://github.com/kyleakaly/Ecommerce-personal-Project-BACKEND-with-NEXT-JS-und-REST-API-with-STRAPI-und-MYSQL-und-AWS.

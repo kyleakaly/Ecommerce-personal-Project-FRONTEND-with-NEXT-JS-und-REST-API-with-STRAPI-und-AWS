@@ -1,0 +1,34 @@
+.Auth{
+
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+    .botonlogn{
+
+        background-color: $decline;
+        width: 100%;
+        color: white;
+        border-radius: 0px;
+       margin: 0px auto!important;
+  
+
+       &:hover{
+        color: black;
+       }
+
+    }
+
+    .linkregister{
+
+        cursor: pointer;
+        color: $primary;
+        text-decoration: underline;
+
+    }
+
+
+}

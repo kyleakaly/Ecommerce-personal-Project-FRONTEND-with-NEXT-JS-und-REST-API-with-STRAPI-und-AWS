@@ -1,0 +1,77 @@
+.account_configuration{
+    .direccion{
+
+        margin-top: 26px;
+      display: flex;
+
+      .ui.grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        padding: 0;
+        width: 100%;
+        place-items: center;
+
+        .todoslosdatos{
+        
+            background-color: white !important;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+            display: flex!important;
+            flex-direction: column;
+            width: 88%!important;
+
+            p{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+        } 
+    }
+
+
+    }
+  .organizarBotones{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+
+      .button{
+          background-color: $morado-fuerte!important;
+          color: white;
+        width: 50%;
+        }
+        .button1{
+            background-color: $decline!important;
+            color: white;
+            width: 50%;
+        }
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .account_configuration{
+        .direccion{
+
+            .ui.grid {
+                display: flex!important;
+                flex-direction: column;
+                justify-content: center;
+                align-items: stretch;
+                padding: 0;
+                width: 100%;
+                margin-right: 26px;
+               
+            }
+
+        }
+    }
+
+}

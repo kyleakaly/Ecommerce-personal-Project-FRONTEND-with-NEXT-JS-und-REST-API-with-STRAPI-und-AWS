@@ -1,0 +1,54 @@
+.account{
+
+    &_configuration{
+        position: relative;
+        padding: 10px;
+
+        .title {
+            width: max-content ;
+            padding:5px 10px;
+            background-color: $morado-fuerte;
+        color: white;
+        font-size: 18px;
+       
+        }
+
+        .data{
+            background-color: $morado-grisaseo ;
+            box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.1);
+        }
+
+    }
+
+    .direccion{
+        p{
+            span{
+                font-weight: bold;
+                font-size: 18px;
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
+
+
+    .cambiaremail{
+
+        .bottom{
+            width: 100%!important;
+            background-color:$morado-fuerte ;
+        }
+
+    }
+    .data{
+
+        margin-top: 10px;
+
+        .abrirmodaldireccion{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+    }
+ 

@@ -1,0 +1,17 @@
+.pagination {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+    .menu{
+        border: 1px solid $primary!important;
+
+        .active.item{
+            background-color: $azul-combina!important;
+        }
+
+    }
+
+}

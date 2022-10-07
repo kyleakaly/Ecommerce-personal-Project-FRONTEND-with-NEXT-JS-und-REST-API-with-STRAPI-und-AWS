@@ -1,0 +1,114 @@
+
+.top-bar{
+height: auto;
+background-color: $background-light;
+
+.ui.grid {
+    margin: 0;
+    padding: 0;
+
+}
+
+&_left{
+
+    display: flex!important;
+    align-items: center;
+
+    .displayflex{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+     
+        p{
+            color: black;
+            font-size: 22px!important;
+
+
+        }
+    }
+
+
+}
+
+.ui.image{
+    height: 40px;
+    width: 40px;
+    transition: all 0.5s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}
+
+&_right{
+    display: flex!important;
+    align-items: center;
+    justify-content: flex-end;
+
+    .ui.icon.input>input{
+        padding-right:5px!important ;
+    }
+
+    .ui.input{
+        align-items: center;
+        margin-right:25px ;
+        input{
+            background-color: transparent!important;
+            border: 0;
+            border-bottom: 2px solid $morado-fuerte;
+            border-radius: 0px;
+            padding: 5px 0;
+            font-size: 20px;
+            color: $morado-grisaseo!important;
+            width: 220px;
+            transition: width 0.7s;
+
+            &:focus{
+                width: 250px;
+            }
+
+           
+
+        }        
+    }
+
+    .ui.icon.input>i.icon{
+        color: $morado-fuerte !important;
+        opacity: 1!important;
+        font-size: 22px;
+        right: -50px!important;
+        
+
+    }
+
+}
+
+}
+
+
+@media only screen and (max-width: 767px){
+.top-bar{
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+
+   &_left{
+       width: 50%!important;
+       .displayflex p{
+           font-size: 18px !important;
+           
+           
+       }
+   }
+
+   &_right{
+    width: 50%!important;
+    .ui.input{
+        width: 140px;
+    }
+}
+}
+}

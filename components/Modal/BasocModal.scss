@@ -1,0 +1,26 @@
+.basic-modal{
+
+    .header{
+
+        background-color:#EEF1FF!important ;
+        text-align: center;
+        display: flex!important;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+       span{
+        color: rgb(0, 0, 0);
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        font-size: 20px;
+       }
+
+       i{
+        font-size: 22px!important;
+        color: red;
+       }
+
+    }
+
+}

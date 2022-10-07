@@ -1,0 +1,26 @@
+.change-name-form{
+    padding-top: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 18px;
+    height: 100%;
+   > h4{
+        display: block;
+        font-size: 16px;
+    }
+
+    .bottom{
+        background-color: $azul-combina;
+        color: rgb(0, 0, 0);
+        border-radius:0 ;
+        width: 100%!important;
+
+        &:hover{
+
+            background-color: $morado-fuerte;
+            color: black;
+
+        }
+    }
+
+}

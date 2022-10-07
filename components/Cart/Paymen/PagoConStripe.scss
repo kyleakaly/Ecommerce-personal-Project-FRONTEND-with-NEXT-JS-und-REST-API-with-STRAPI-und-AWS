@@ -1,0 +1,70 @@
+.pagoconstripe {
+
+    width: 100%;
+    
+    margin-bottom: 10px;
+
+    .textos{
+
+        margin-top: 20px!important;
+        border-top: 1px solid black;
+
+
+        h1{
+          
+            margin-top: 10px;
+            padding-top: 20px;
+        }
+        
+
+    }
+
+    .form-payment{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+
+        .bottom{
+            background-color:$primary;
+            color: black;
+            font-size: 18px;
+            padding: 10px;
+            transition: 300ms;
+            margin-top: 10px;
+
+            &:hover{
+                background-color:  $morado-fuerte;
+               transform: translatex(10px);
+               color: white;
+            }
+
+        }
+        
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 767px){
+
+    .pagoconstripe {
+        .form-payment{
+            width: 80%!important;
+            display: flex;
+            flex-direction: column;
+            margin: 0px auto;
+            .stripeElement {
+                padding: 10px;
+          
+                
+            }
+
+        
+    
+    }
+    }
+   
+
+}

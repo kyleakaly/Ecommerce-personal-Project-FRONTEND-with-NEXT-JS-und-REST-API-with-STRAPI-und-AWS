@@ -1,0 +1,96 @@
+.direccionesorganizadas{
+
+    border-top: 1px solid black;
+    margin-top:26px ;
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-bottom: 16px;
+
+
+h2{
+    margin-top: 20px;
+}
+    .direccion-envio{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+
+        .obtenerdireccion{
+            text-align: center;
+            width: 100%;
+            background: none;
+            color: #BB872A;
+        }
+
+    .direccion{
+    
+        border: 1px solid black;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    
+        .ui.button{
+    
+            background-color: $primary;
+            color: black;
+
+            &:hover{
+                background-color: white;
+                color:$primary;
+                border: 1px solid black;
+            }
+    
+        }
+    
+    }
+
+    .black{
+        border: 1px solid black!important;
+        background-color: $morado-fuerte;
+        color: white;
+
+        .ui.button{
+    
+            background-color: white;
+            color: $primary;
+
+            &:hover{
+                background-color: white;
+                color:$primary;
+                border: 1px solid black;
+            }
+    
+        }
+    }
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 767px){
+   
+    .direccionesorganizadas{
+
+        .direccion-envio{
+            display: flex;
+            flex-direction: row!important;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        .direccion{
+    
+        }
+    }
+
+    }
+
+    
+
+
+}
